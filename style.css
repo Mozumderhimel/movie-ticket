@@ -1,0 +1,74 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    height: 10%;
+}
+
+.logo {
+    width: 70px;
+    margin-top: 1.5rem;
+}
+
+.header-btn {
+    text-decoration: none;
+    background-color: #107fad;
+    padding: 7px 20px;
+    color: white !important;
+    float: right;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.left-box {
+    color: #fff;
+}
+
+.casting img {
+    height: 40px;
+    width: 35px;
+    cursor: pointer;
+    margin: 0 1px;
+}
+
+.download-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    color: white;
+}
+
+.watch {
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    color: white;
+}
+
+.movie-img {
+    height: 350px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px red;
+}
+
+.seires img {
+    cursor: pointer;
+    box-shadow: -4px 4px 15px #000;
+    transition: 1s;
+}
+
+.seires img:hover {
+    transform: translateY(-12px);
+}
